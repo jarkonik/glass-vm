@@ -1,8 +1,10 @@
 [package]
-name = "glass_vm"
+name = "glass-vm"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+phf = { version = "0.11", features = ["macros"] }
+eframe = "0.18"
